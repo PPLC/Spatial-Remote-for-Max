@@ -85,6 +85,30 @@
 						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-23",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "float" ],
+									"patching_rect" : [ 388.0, 475.0, 33.0, 22.0 ],
+									"text" : "* 1.5"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-22",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "float" ],
+									"patching_rect" : [ 349.0, 475.0, 33.0, 22.0 ],
+									"text" : "* 1.5"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-21",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
@@ -275,15 +299,29 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-10", 0 ],
+									"destination" : [ "obj-22", 0 ],
 									"source" : [ "obj-20", 0 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-10", 1 ],
+									"destination" : [ "obj-23", 0 ],
 									"source" : [ "obj-21", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-10", 0 ],
+									"source" : [ "obj-22", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-10", 1 ],
+									"source" : [ "obj-23", 0 ]
 								}
 
 							}
@@ -559,7 +597,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-23",
@@ -1036,14 +1073,15 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"data" : 									{
 										"clips" : [ 											{
-												"absolutepath" : "flightofthedroneversion3 6-Audio knistern.wav",
-												"filename" : "flightofthedroneversion3 6-Audio knistern.wav",
+												"absolutepath" : "Macintosh HD:/Users/timodufner/Music/Samples/DID_SAMPLE_PACK_III/synths, glitch & more/chl_synth_100_spectral_E.mp3",
+												"filename" : "chl_synth_100_spectral_E.mp3",
 												"filekind" : "audiofile",
-												"loop" : 1,
+												"loop" : 0,
 												"content_state" : 												{
 													"timestretch" : [ 0 ],
 													"formantcorrection" : [ 0 ],
@@ -1066,12 +1104,12 @@
  ]
 									}
 ,
-									"id" : "obj-60",
+									"id" : "obj-4",
 									"maxclass" : "playlist~",
 									"numinlets" : 1,
 									"numoutlets" : 5,
 									"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
-									"patching_rect" : [ 55.0, 290.0, 150.0, 30.0 ]
+									"patching_rect" : [ 405.0, 254.0, 150.0, 30.0 ]
 								}
 
 							}
@@ -1079,10 +1117,10 @@
 								"box" : 								{
 									"data" : 									{
 										"clips" : [ 											{
-												"absolutepath" : "flightofthedroneversion3 7-Audio.wav",
-												"filename" : "flightofthedroneversion3 7-Audio.wav",
+												"absolutepath" : "Macintosh HD:/Users/timodufner/Music/Samples/DID_SAMPLE_PACK_III/synths, glitch & more/chl_glock_100_revfoil_C.mp3",
+												"filename" : "chl_glock_100_revfoil_C.mp3",
 												"filekind" : "audiofile",
-												"loop" : 1,
+												"loop" : 0,
 												"content_state" : 												{
 													"timestretch" : [ 0 ],
 													"formantcorrection" : [ 0 ],
@@ -1105,12 +1143,12 @@
  ]
 									}
 ,
-									"id" : "obj-53",
+									"id" : "obj-2",
 									"maxclass" : "playlist~",
 									"numinlets" : 1,
 									"numoutlets" : 5,
 									"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
-									"patching_rect" : [ 90.0, 202.0, 150.0, 30.0 ]
+									"patching_rect" : [ 330.0, 159.0, 150.0, 30.0 ]
 								}
 
 							}
@@ -1118,49 +1156,10 @@
 								"box" : 								{
 									"data" : 									{
 										"clips" : [ 											{
-												"absolutepath" : "flightofthedroneversion3 4-Audio.wav",
-												"filename" : "flightofthedroneversion3 4-Audio.wav",
+												"absolutepath" : "/Users/timodufner/Music/Samples/DID_SAMPLE_PACK_III/drum loops/chill drum - 100bpm/ch_beat_100_boomroom.mp3",
+												"filename" : "ch_beat_100_boomroom.mp3",
 												"filekind" : "audiofile",
-												"loop" : 1,
-												"content_state" : 												{
-													"timestretch" : [ 0 ],
-													"formantcorrection" : [ 0 ],
-													"play" : [ 0 ],
-													"formant" : [ 1.0 ],
-													"originallength" : [ 0.0, "ticks" ],
-													"speed" : [ 1.0 ],
-													"originallengthms" : [ 0.0 ],
-													"originaltempo" : [ 120.0 ],
-													"slurtime" : [ 0.0 ],
-													"basictuning" : [ 440 ],
-													"pitchcorrection" : [ 0 ],
-													"pitchshift" : [ 1.0 ],
-													"quality" : [ "basic" ],
-													"followglobaltempo" : [ 0 ],
-													"mode" : [ "basic" ]
-												}
-
-											}
- ]
-									}
-,
-									"id" : "obj-50",
-									"maxclass" : "playlist~",
-									"numinlets" : 1,
-									"numoutlets" : 5,
-									"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
-									"patching_rect" : [ 293.0, 100.0, 150.0, 30.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"data" : 									{
-										"clips" : [ 											{
-												"absolutepath" : "flightofthedroneversion3 3-Audio.wav",
-												"filename" : "flightofthedroneversion3 3-Audio.wav",
-												"filekind" : "audiofile",
-												"loop" : 1,
+												"loop" : 0,
 												"content_state" : 												{
 													"timestretch" : [ 0 ],
 													"formantcorrection" : [ 0 ],
@@ -1258,34 +1257,6 @@
 								"patchline" : 								{
 									"destination" : [ "obj-47", 0 ],
 									"midpoints" : [ 48.5, 87.0, 107.5, 87.0 ],
-									"order" : 1,
-									"source" : [ "obj-10", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-50", 0 ],
-									"midpoints" : [ 48.5, 87.0, 302.5, 87.0 ],
-									"order" : 0,
-									"source" : [ "obj-10", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-53", 0 ],
-									"midpoints" : [ 48.5, 189.0, 99.5, 189.0 ],
-									"order" : 2,
-									"source" : [ "obj-10", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-60", 0 ],
-									"midpoints" : [ 48.5, 276.0, 64.5, 276.0 ],
-									"order" : 3,
 									"source" : [ "obj-10", 0 ]
 								}
 
@@ -1293,31 +1264,28 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-12", 0 ],
-									"source" : [ "obj-47", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-15", 0 ],
-									"midpoints" : [ 302.5, 582.0, 130.5, 582.0 ],
-									"source" : [ "obj-50", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-17", 0 ],
-									"midpoints" : [ 99.5, 276.0, 216.0, 276.0, 216.0, 582.0, 165.5, 582.0 ],
-									"source" : [ "obj-53", 0 ]
+									"source" : [ "obj-2", 0 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-13", 0 ],
-									"midpoints" : [ 64.5, 582.0, 95.5, 582.0 ],
-									"source" : [ "obj-60", 0 ]
+									"source" : [ "obj-4", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-15", 0 ],
+									"source" : [ "obj-47", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-17", 0 ],
+									"source" : [ "obj-47", 1 ]
 								}
 
 							}
@@ -2514,6 +2482,27 @@
 				"name" : "thru.maxpat",
 				"bootpath" : "C74:/patchers/m4l/Pluggo for Live resources/patches",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "ch_beat_100_boomroom.mp3",
+				"bootpath" : "~/Music/Samples/DID_SAMPLE_PACK_III/drum loops/chill drum - 100bpm",
+				"patcherrelativepath" : "../../../../../Music/Samples/DID_SAMPLE_PACK_III/drum loops/chill drum - 100bpm",
+				"type" : "Mp3",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "chl_glock_100_revfoil_C.mp3",
+				"bootpath" : "~/Music/Samples/DID_SAMPLE_PACK_III/synths, glitch & more",
+				"patcherrelativepath" : "../../../../../Music/Samples/DID_SAMPLE_PACK_III/synths, glitch & more",
+				"type" : "Mp3",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "chl_synth_100_spectral_E.mp3",
+				"bootpath" : "~/Music/Samples/DID_SAMPLE_PACK_III/synths, glitch & more",
+				"patcherrelativepath" : "../../../../../Music/Samples/DID_SAMPLE_PACK_III/synths, glitch & more",
+				"type" : "Mp3",
 				"implicit" : 1
 			}
 , 			{
