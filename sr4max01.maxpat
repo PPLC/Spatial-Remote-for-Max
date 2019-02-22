@@ -378,8 +378,8 @@
 								"name" : "Default M4L",
 								"default" : 								{
 									"fontsize" : [ 11.0 ],
-									"fontname" : [ "Arial Bold" ],
-									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
+									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
+									"fontname" : [ "Arial Bold" ]
 								}
 ,
 								"parentstyle" : "",
@@ -389,8 +389,8 @@
 								"name" : "Default M4L Poletti",
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial Bold" ],
-									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
+									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
+									"fontname" : [ "Arial Bold" ]
 								}
 ,
 								"parentstyle" : "",
@@ -399,6 +399,7 @@
 , 							{
 								"name" : "Default M4L-1",
 								"default" : 								{
+									"fontsize" : [ 11.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -408,7 +409,6 @@
 										"proportion" : 0.39
 									}
 ,
-									"fontsize" : [ 11.0 ],
 									"fontname" : [ "Arial" ],
 									"fontface" : [ 1 ]
 								}
@@ -436,6 +436,7 @@
 , 							{
 								"name" : "jbb",
 								"default" : 								{
+									"fontsize" : [ 9.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -445,7 +446,6 @@
 										"proportion" : 0.39
 									}
 ,
-									"fontsize" : [ 9.0 ],
 									"fontname" : [ "Arial" ]
 								}
 ,
@@ -843,8 +843,8 @@
 								"name" : "Default M4L",
 								"default" : 								{
 									"fontsize" : [ 11.0 ],
-									"fontname" : [ "Arial Bold" ],
-									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
+									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
+									"fontname" : [ "Arial Bold" ]
 								}
 ,
 								"parentstyle" : "",
@@ -854,8 +854,8 @@
 								"name" : "Default M4L Poletti",
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial Bold" ],
-									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
+									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
+									"fontname" : [ "Arial Bold" ]
 								}
 ,
 								"parentstyle" : "",
@@ -864,6 +864,7 @@
 , 							{
 								"name" : "Default M4L-1",
 								"default" : 								{
+									"fontsize" : [ 11.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -873,7 +874,6 @@
 										"proportion" : 0.39
 									}
 ,
-									"fontsize" : [ 11.0 ],
 									"fontname" : [ "Arial" ],
 									"fontface" : [ 1 ]
 								}
@@ -901,6 +901,7 @@
 , 							{
 								"name" : "jbb",
 								"default" : 								{
+									"fontsize" : [ 9.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -910,7 +911,6 @@
 										"proportion" : 0.39
 									}
 ,
-									"fontsize" : [ 9.0 ],
 									"fontname" : [ "Arial" ]
 								}
 ,
@@ -1132,13 +1132,13 @@
 					"patching_rect" : [ 338.5, 232.0, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_unitstyle" : 4,
-							"parameter_mmin" : -70.0,
-							"parameter_longname" : "live.gain~[6]",
 							"parameter_mmax" : 6.0,
 							"parameter_initial" : [ 0.0 ],
 							"parameter_shortname" : "live.gain~[4]",
-							"parameter_type" : 0
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 4,
+							"parameter_mmin" : -70.0,
+							"parameter_longname" : "live.gain~[6]"
 						}
 
 					}
@@ -1524,8 +1524,8 @@
 								"name" : "Default M4L",
 								"default" : 								{
 									"fontsize" : [ 11.0 ],
-									"fontname" : [ "Arial Bold" ],
-									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
+									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
+									"fontname" : [ "Arial Bold" ]
 								}
 ,
 								"parentstyle" : "",
@@ -1535,8 +1535,8 @@
 								"name" : "Default M4L Poletti",
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial Bold" ],
-									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
+									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
+									"fontname" : [ "Arial Bold" ]
 								}
 ,
 								"parentstyle" : "",
@@ -1545,6 +1545,7 @@
 , 							{
 								"name" : "Default M4L-1",
 								"default" : 								{
+									"fontsize" : [ 11.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -1554,7 +1555,6 @@
 										"proportion" : 0.39
 									}
 ,
-									"fontsize" : [ 11.0 ],
 									"fontname" : [ "Arial" ],
 									"fontface" : [ 1 ]
 								}
@@ -1582,6 +1582,7 @@
 , 							{
 								"name" : "jbb",
 								"default" : 								{
+									"fontsize" : [ 9.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -1591,7 +1592,6 @@
 										"proportion" : 0.39
 									}
 ,
-									"fontsize" : [ 9.0 ],
 									"fontname" : [ "Arial" ]
 								}
 ,
@@ -2038,8 +2038,8 @@
 								"name" : "Default M4L",
 								"default" : 								{
 									"fontsize" : [ 11.0 ],
-									"fontname" : [ "Arial Bold" ],
-									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
+									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
+									"fontname" : [ "Arial Bold" ]
 								}
 ,
 								"parentstyle" : "",
@@ -2049,8 +2049,8 @@
 								"name" : "Default M4L Poletti",
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial Bold" ],
-									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
+									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
+									"fontname" : [ "Arial Bold" ]
 								}
 ,
 								"parentstyle" : "",
@@ -2059,6 +2059,7 @@
 , 							{
 								"name" : "Default M4L-1",
 								"default" : 								{
+									"fontsize" : [ 11.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -2068,7 +2069,6 @@
 										"proportion" : 0.39
 									}
 ,
-									"fontsize" : [ 11.0 ],
 									"fontname" : [ "Arial" ],
 									"fontface" : [ 1 ]
 								}
@@ -2096,6 +2096,7 @@
 , 							{
 								"name" : "jbb",
 								"default" : 								{
+									"fontsize" : [ 9.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -2105,7 +2106,6 @@
 										"proportion" : 0.39
 									}
 ,
-									"fontsize" : [ 9.0 ],
 									"fontname" : [ "Arial" ]
 								}
 ,
@@ -2219,7 +2219,125 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"data" : 									{
+										"clips" : [ 											{
+												"absolutepath" : "Macintosh HD:/Users/timodufner/Music/ItunesVerwaltung/Music/Tin Man/Resident Advisor podcast/442 RA.442 Tin Man - 2014.11.17.mp3",
+												"filename" : "442 RA.442 Tin Man - 2014.11.17.mp3",
+												"filekind" : "audiofile",
+												"loop" : 0,
+												"content_state" : 												{
+													"slurtime" : [ 0.0 ],
+													"pitchcorrection" : [ 0 ],
+													"followglobaltempo" : [ 0 ],
+													"pitchshift" : [ 1.0 ],
+													"timestretch" : [ 0 ],
+													"formantcorrection" : [ 0 ],
+													"play" : [ 0 ],
+													"formant" : [ 1.0 ],
+													"originallength" : [ 0.0, "ticks" ],
+													"originallengthms" : [ 0.0 ],
+													"quality" : [ "basic" ],
+													"mode" : [ "basic" ],
+													"originaltempo" : [ 120.0 ],
+													"speed" : [ 1.0 ],
+													"basictuning" : [ 440 ]
+												}
+
+											}
+ ]
+									}
+,
+									"id" : "obj-7",
+									"maxclass" : "playlist~",
+									"numinlets" : 1,
+									"numoutlets" : 5,
+									"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
+									"patching_rect" : [ 486.0, 379.0, 150.0, 30.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"data" : 									{
+										"clips" : [ 											{
+												"absolutepath" : "Macintosh HD:/Users/timodufner/Music/ItunesVerwaltung/Music/Lunatic/http___www.subsource.de/Sonntagmorgen.mp3",
+												"filename" : "Sonntagmorgen.mp3",
+												"filekind" : "audiofile",
+												"loop" : 1,
+												"content_state" : 												{
+													"slurtime" : [ 0.0 ],
+													"pitchcorrection" : [ 0 ],
+													"followglobaltempo" : [ 0 ],
+													"pitchshift" : [ 1.0 ],
+													"timestretch" : [ 0 ],
+													"formantcorrection" : [ 0 ],
+													"play" : [ 0 ],
+													"formant" : [ 1.0 ],
+													"originallength" : [ 0.0, "ticks" ],
+													"originallengthms" : [ 0.0 ],
+													"quality" : [ "basic" ],
+													"mode" : [ "basic" ],
+													"originaltempo" : [ 120.0 ],
+													"speed" : [ 1.0 ],
+													"basictuning" : [ 440 ]
+												}
+
+											}
+ ]
+									}
+,
+									"id" : "obj-3",
+									"maxclass" : "playlist~",
+									"numinlets" : 1,
+									"numoutlets" : 5,
+									"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
+									"patching_rect" : [ 453.0, 438.0, 150.0, 30.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"data" : 									{
+										"clips" : [ 											{
+												"absolutepath" : "Macintosh HD:/Users/timodufner/Music/ItunesVerwaltung/Music/Lunatic/http___www.subsource.de/Sonntagmorgen.mp3",
+												"filename" : "Sonntagmorgen.mp3",
+												"filekind" : "audiofile",
+												"loop" : 1,
+												"content_state" : 												{
+													"slurtime" : [ 0.0 ],
+													"pitchcorrection" : [ 0 ],
+													"followglobaltempo" : [ 0 ],
+													"pitchshift" : [ 1.0 ],
+													"timestretch" : [ 0 ],
+													"formantcorrection" : [ 0 ],
+													"play" : [ 0 ],
+													"formant" : [ 1.0 ],
+													"originallength" : [ 0.0, "ticks" ],
+													"originallengthms" : [ 0.0 ],
+													"quality" : [ "basic" ],
+													"mode" : [ "basic" ],
+													"originaltempo" : [ 120.0 ],
+													"speed" : [ 1.0 ],
+													"basictuning" : [ 440 ]
+												}
+
+											}
+ ]
+									}
+,
+									"id" : "obj-5",
+									"maxclass" : "playlist~",
+									"numinlets" : 1,
+									"numoutlets" : 5,
+									"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
+									"patching_rect" : [ 476.0, 336.0, 150.0, 30.0 ]
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"comment" : "",
 									"id" : "obj-16",
@@ -2257,13 +2375,13 @@
 									"patching_rect" : [ 206.0, 389.0, 48.0, 136.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_unitstyle" : 4,
-											"parameter_mmin" : -70.0,
-											"parameter_longname" : "live.gain~[5]",
 											"parameter_mmax" : 6.0,
 											"parameter_initial" : [ 0.0 ],
 											"parameter_shortname" : "live.gain~",
-											"parameter_type" : 0
+											"parameter_type" : 0,
+											"parameter_unitstyle" : 4,
+											"parameter_mmin" : -70.0,
+											"parameter_longname" : "live.gain~[5]"
 										}
 
 									}
@@ -2284,13 +2402,13 @@
 									"patching_rect" : [ 320.0, 385.0, 48.0, 136.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_unitstyle" : 4,
-											"parameter_mmin" : -70.0,
-											"parameter_longname" : "live.gain~",
 											"parameter_mmax" : 6.0,
 											"parameter_initial" : [ 0.0 ],
 											"parameter_shortname" : "live.gain~",
-											"parameter_type" : 0
+											"parameter_type" : 0,
+											"parameter_unitstyle" : 4,
+											"parameter_mmin" : -70.0,
+											"parameter_longname" : "live.gain~"
 										}
 
 									}
@@ -2321,21 +2439,21 @@
 												"filekind" : "audiofile",
 												"loop" : 1,
 												"content_state" : 												{
-													"timestretch" : [ 0 ],
-													"formantcorrection" : [ 0 ],
 													"slurtime" : [ 0.0 ],
-													"originallength" : [ 0.0, "ticks" ],
-													"quality" : [ "basic" ],
-													"mode" : [ "basic" ],
-													"pitchshift" : [ 1.0 ],
-													"speed" : [ 1.0 ],
-													"originaltempo" : [ 120.0 ],
-													"basictuning" : [ 440 ],
-													"formant" : [ 1.0 ],
 													"pitchcorrection" : [ 0 ],
 													"followglobaltempo" : [ 0 ],
+													"pitchshift" : [ 1.0 ],
+													"timestretch" : [ 0 ],
+													"formantcorrection" : [ 0 ],
+													"play" : [ 0 ],
+													"formant" : [ 1.0 ],
+													"originallength" : [ 0.0, "ticks" ],
 													"originallengthms" : [ 0.0 ],
-													"play" : [ 0 ]
+													"quality" : [ "basic" ],
+													"mode" : [ "basic" ],
+													"originaltempo" : [ 120.0 ],
+													"speed" : [ 1.0 ],
+													"basictuning" : [ 440 ]
 												}
 
 											}
@@ -2360,21 +2478,21 @@
 												"filekind" : "audiofile",
 												"loop" : 1,
 												"content_state" : 												{
-													"timestretch" : [ 0 ],
-													"formantcorrection" : [ 0 ],
 													"slurtime" : [ 0.0 ],
-													"originallength" : [ 0.0, "ticks" ],
-													"quality" : [ "basic" ],
-													"mode" : [ "basic" ],
-													"pitchshift" : [ 1.0 ],
-													"speed" : [ 1.0 ],
-													"originaltempo" : [ 120.0 ],
-													"basictuning" : [ 440 ],
-													"formant" : [ 1.0 ],
 													"pitchcorrection" : [ 0 ],
 													"followglobaltempo" : [ 0 ],
+													"pitchshift" : [ 1.0 ],
+													"timestretch" : [ 0 ],
+													"formantcorrection" : [ 0 ],
+													"play" : [ 0 ],
+													"formant" : [ 1.0 ],
+													"originallength" : [ 0.0, "ticks" ],
 													"originallengthms" : [ 0.0 ],
-													"play" : [ 0 ]
+													"quality" : [ "basic" ],
+													"mode" : [ "basic" ],
+													"originaltempo" : [ 120.0 ],
+													"speed" : [ 1.0 ],
+													"basictuning" : [ 440 ]
 												}
 
 											}
@@ -2399,21 +2517,21 @@
 												"filekind" : "audiofile",
 												"loop" : 1,
 												"content_state" : 												{
-													"timestretch" : [ 0 ],
-													"formantcorrection" : [ 0 ],
 													"slurtime" : [ 0.0 ],
-													"originallength" : [ 0.0, "ticks" ],
-													"quality" : [ "basic" ],
-													"mode" : [ "basic" ],
-													"pitchshift" : [ 1.0 ],
-													"speed" : [ 1.0 ],
-													"originaltempo" : [ 120.0 ],
-													"basictuning" : [ 440 ],
-													"formant" : [ 1.0 ],
 													"pitchcorrection" : [ 0 ],
 													"followglobaltempo" : [ 0 ],
+													"pitchshift" : [ 1.0 ],
+													"timestretch" : [ 0 ],
+													"formantcorrection" : [ 0 ],
+													"play" : [ 0 ],
+													"formant" : [ 1.0 ],
+													"originallength" : [ 0.0, "ticks" ],
 													"originallengthms" : [ 0.0 ],
-													"play" : [ 0 ]
+													"quality" : [ "basic" ],
+													"mode" : [ "basic" ],
+													"originaltempo" : [ 120.0 ],
+													"speed" : [ 1.0 ],
+													"basictuning" : [ 440 ]
 												}
 
 											}
@@ -2545,6 +2663,13 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-13", 0 ],
+									"source" : [ "obj-3", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-9", 0 ],
 									"source" : [ "obj-4", 0 ]
 								}
@@ -2561,6 +2686,27 @@
 								"patchline" : 								{
 									"destination" : [ "obj-17", 0 ],
 									"source" : [ "obj-47", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-12", 0 ],
+									"source" : [ "obj-5", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-12", 0 ],
+									"source" : [ "obj-7", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-13", 0 ],
+									"source" : [ "obj-7", 1 ]
 								}
 
 							}
@@ -2603,8 +2749,8 @@
 								"name" : "Default M4L",
 								"default" : 								{
 									"fontsize" : [ 11.0 ],
-									"fontname" : [ "Arial Bold" ],
-									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
+									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
+									"fontname" : [ "Arial Bold" ]
 								}
 ,
 								"parentstyle" : "",
@@ -2614,8 +2760,8 @@
 								"name" : "Default M4L Poletti",
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial Bold" ],
-									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
+									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
+									"fontname" : [ "Arial Bold" ]
 								}
 ,
 								"parentstyle" : "",
@@ -2624,6 +2770,7 @@
 , 							{
 								"name" : "Default M4L-1",
 								"default" : 								{
+									"fontsize" : [ 11.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -2633,7 +2780,6 @@
 										"proportion" : 0.39
 									}
 ,
-									"fontsize" : [ 11.0 ],
 									"fontname" : [ "Arial" ],
 									"fontface" : [ 1 ]
 								}
@@ -2661,6 +2807,7 @@
 , 							{
 								"name" : "jbb",
 								"default" : 								{
+									"fontsize" : [ 9.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -2670,7 +2817,6 @@
 										"proportion" : 0.39
 									}
 ,
-									"fontsize" : [ 9.0 ],
 									"fontname" : [ "Arial" ]
 								}
 ,
@@ -3054,13 +3200,13 @@
 					"patching_rect" : [ 164.5, 670.0, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_unitstyle" : 4,
-							"parameter_mmin" : -70.0,
-							"parameter_longname" : "live.gain~[4]",
 							"parameter_mmax" : 6.0,
 							"parameter_initial" : [ 0.0 ],
 							"parameter_shortname" : "live.gain~[4]",
-							"parameter_type" : 0
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 4,
+							"parameter_mmin" : -70.0,
+							"parameter_longname" : "live.gain~[4]"
 						}
 
 					}
@@ -3138,13 +3284,13 @@
 					"relative" : 1,
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_unitstyle" : 4,
-							"parameter_mmin" : -70.0,
-							"parameter_longname" : "live.gain~[3]",
 							"parameter_mmax" : 6.0,
 							"parameter_initial" : [ 0.0 ],
 							"parameter_shortname" : "loudspeakers",
-							"parameter_type" : 0
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 4,
+							"parameter_mmin" : -70.0,
+							"parameter_longname" : "live.gain~[3]"
 						}
 
 					}
@@ -3991,16 +4137,16 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-36::obj-11" : [ "live.gain~[5]", "live.gain~", 0 ],
-			"obj-29::obj-607" : [ "live.button[1]", "live.button", 0 ],
 			"obj-36::obj-9" : [ "live.gain~", "live.gain~", 0 ],
-			"obj-29::obj-55" : [ "live.text[3]", "live.text", 0 ],
 			"obj-27" : [ "live.gain~[3]", "loudspeakers", 0 ],
 			"obj-5" : [ "live.gain~[4]", "live.gain~[4]", 0 ],
-			"obj-15" : [ "live.gain~[6]", "live.gain~[4]", 0 ],
+			"obj-36::obj-11" : [ "live.gain~[5]", "live.gain~", 0 ],
+			"obj-29::obj-55" : [ "live.text[3]", "live.text", 0 ],
 			"obj-29::obj-606" : [ "live.text[2]", "live.text", 0 ],
 			"obj-29::obj-16" : [ "live.text[1]", "live.text", 0 ],
 			"obj-29::obj-11" : [ "live.text[4]", "live.text", 0 ],
+			"obj-29::obj-607" : [ "live.button[1]", "live.button", 0 ],
+			"obj-15" : [ "live.gain~[6]", "live.gain~[4]", 0 ],
 			"parameterbanks" : 			{
 
 			}
@@ -4038,6 +4184,20 @@
 				"name" : "chl_synth_100_spectral_E.mp3",
 				"bootpath" : "~/Music/Samples/DID_SAMPLE_PACK_III/synths, glitch & more",
 				"patcherrelativepath" : "../../../../../Music/Samples/DID_SAMPLE_PACK_III/synths, glitch & more",
+				"type" : "Mp3",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Sonntagmorgen.mp3",
+				"bootpath" : "~/Music/ItunesVerwaltung/Music/Lunatic/http___www.subsource.de",
+				"patcherrelativepath" : "../../../../../Music/ItunesVerwaltung/Music/Lunatic/http___www.subsource.de",
+				"type" : "Mp3",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "442 RA.442 Tin Man - 2014.11.17.mp3",
+				"bootpath" : "~/Music/ItunesVerwaltung/Music/Tin Man/Resident Advisor podcast",
+				"patcherrelativepath" : "../../../../../Music/ItunesVerwaltung/Music/Tin Man/Resident Advisor podcast",
 				"type" : "Mp3",
 				"implicit" : 1
 			}
@@ -4098,8 +4258,8 @@
 				"name" : "Default M4L",
 				"default" : 				{
 					"fontsize" : [ 11.0 ],
-					"fontname" : [ "Arial Bold" ],
-					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
+					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
+					"fontname" : [ "Arial Bold" ]
 				}
 ,
 				"parentstyle" : "",
@@ -4109,8 +4269,8 @@
 				"name" : "Default M4L Poletti",
 				"default" : 				{
 					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial Bold" ],
-					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
+					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
+					"fontname" : [ "Arial Bold" ]
 				}
 ,
 				"parentstyle" : "",
@@ -4119,6 +4279,7 @@
 , 			{
 				"name" : "Default M4L-1",
 				"default" : 				{
+					"fontsize" : [ 11.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -4128,7 +4289,6 @@
 						"proportion" : 0.39
 					}
 ,
-					"fontsize" : [ 11.0 ],
 					"fontname" : [ "Arial" ],
 					"fontface" : [ 1 ]
 				}
@@ -4156,6 +4316,7 @@
 , 			{
 				"name" : "jbb",
 				"default" : 				{
+					"fontsize" : [ 9.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -4165,7 +4326,6 @@
 						"proportion" : 0.39
 					}
 ,
-					"fontsize" : [ 9.0 ],
 					"fontname" : [ "Arial" ]
 				}
 ,
